@@ -1,0 +1,57 @@
+[{
+        "origin": [-122.414, 37.776],
+        "id": "tmp1",
+        "destination": [-77.032, 38.913],
+        "color": "#da1e28",
+        "status": "inactive"
+    },
+    {
+        "origin": [-122.4821473, 47.6129432],
+        "id": "tmp2",
+        "destination": [-73.7803278, 40.6413111],
+        "color": "#0f62fe",
+        "status": "active"
+    },
+    {
+        "origin": [-84.4205731, 33.6402546],
+        "id": "tmp3",
+        "destination": [-77.032, 38.913],
+        "color": "#da1e28",
+        "status": "inactive"
+    },
+    {
+        "origin": [-80.1527909, 26.0742344],
+        "id": "tmp4",
+        "destination": [-84.4205731, 33.6402546],
+        "color": "#0f62fe",
+        "status": "active"
+    },
+    {
+        "origin": [-122.392041, 37.6148706],
+        "id": "tmp5",
+        "destination": [-84.4205731, 33.6402546],
+        "color": "#da1e28",
+        "status": "inactive"
+    },
+    {
+        "origin": [-122.4821473, 47.6129432],
+        "id": "tmp6",
+        "destination": [-73.7803278, 40.6413111],
+        "color": "#0f62fe",
+        "status": "active"
+    },
+    {
+        "origin": [-122.414, 37.776],
+        "id": "tmp7",
+        "destination": [-77.032, 38.913],
+        "color": "#da1e28",
+        "status": "inactive"
+    },
+    {
+        "origin": [-122.4821473, 47.6129432],
+        "id": "tmp8",
+        "destination": [-73.7803278, 40.6413111],
+        "color": "#0f62fe",
+        "status": "active"
+    }
+]
