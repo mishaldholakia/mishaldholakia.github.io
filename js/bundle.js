@@ -2085,7 +2085,7 @@ map.on('load', function() {
 
             // let description = element.text;
 
-            let description = `<strong>${element.ident}</strong <br><p>${element.text}</p>`;
+            let description = `<b>${element.ident}</b> <br><p>${element.text}</p>`;
 
             // Ensure that if the map is zoomed out such that multiple
             // copies of the feature are visible, the popup appears
