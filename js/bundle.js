@@ -1638,7 +1638,7 @@ map.on('load', function() {
     map.on('mouseenter', 'states-layer', function(e) {
         json.forEach(element => {
             if (e.features[0].properties.ISO_A3 === element.ISO_A3) {
-                let description = `<h4>${e.features[0].properties.ADMIN}</h4><br><ul><li>isInboundRestricted:${element.isInboundRestricted}</li><li>isInboundLandRestricted:${element.isInboundLandRestricted}</li><li>isInboundCompletelyRestricted:${element.isInboundCompletelyRestricted}</li><li>inboundRestrictedCountryNamesRaw:${element.inboundRestrictedCountryNamesRaw}</li>`;
+                let description = `<h4>${e.features[0].properties.ADMIN}</h4><ul><li>InBound:${element.isInboundRestricted}</li><li>Inbound land:${element.isInboundLandRestricted}</li><li>Inbound Complete:${element.isInboundCompletelyRestricted}</li><li>Countries restriction:${element.inboundRestrictedCountryNamesRaw}</li>`;
                 popup
                     .setLngLat(e.lngLat)
                     .setHTML(description)
