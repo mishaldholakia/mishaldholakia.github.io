@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import "https://unpkg.com/carbon-components/css/carbon-components.min.css";
+body {
+    margin: 0;
+    padding: 0;
+}
+
 #map {
     position: absolute;
     top: 0;
@@ -6,11 +11,17 @@
     width: 100%;
 }
 
-.mapboxgl-popup {
-    max-width: 400px;
-    font: 12px/20px 'Open Sans', sans-serif;
+.overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 130px;
+    height: 80px;
+    background-color: #8d8d8d;
+    opacity: .4;
+    color: #f4f4f4;
 }
 
-.overlay button:hover {
-    background-color: #4ea0da;
+.overlay:hover {
+    opacity: .9;
 }
